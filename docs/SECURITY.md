@@ -14,3 +14,7 @@ This public repository contains only product documentation and a conceptual diag
 These are design and implementation features in the provided source. They are not a security certification or an independent penetration test. Real staging and production readiness were not established by the supplied tests.
 
 To report a possible issue, contact [NaarCode](https://naarcode.com/fa) privately.
+
+## Published code excerpt
+
+The repository also includes a small standalone example derived from non-sensitive source and a synthetic-input test. This does not include production deployment code, credentials, customer data or the full application. The excerpt should not be treated as a comprehensive security review.
