@@ -44,6 +44,17 @@ The supplied project documentation reports **44 passing automated tests and 86% 
 
 See [Architecture](docs/ARCHITECTURE.md) for trust boundaries and state transitions.
 
+
+## Selected source example
+
+A small, source-derived code sample is available: [task state transitions](examples/task_state_machine.py). It illustrates an isolated engineering technique used in the original project. The associated [test file](examples/test_task_state_machine.py) uses synthetic inputs and contains no customer or production data.
+
+```sh
+python -m unittest discover -s examples -p 'test_*.py'
+```
+
+The example has been separated from the original application and may be lightly adapted for standalone review. **It is not the full product, a deployment package, or a representation of every proprietary module.**
+
 ## Repository boundary
 
 This public repository is a **portfolio showcase**, not a runnable distribution. The full agent source, prompts and project-specific policy rules, credentials, private endpoints, and client integrations are not published here.
